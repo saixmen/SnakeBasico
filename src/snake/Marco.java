@@ -24,6 +24,7 @@ public class Marco extends javax.swing.JFrame implements KeyListener, ActionList
         initComponents();
         /* Capturamos la base de dibujo con formulario: el layout de la ventana */
         /* Añadimos nuestro lienzo, el canvas */
+        System.out.println("Hola martaaaaaaaaaaaaaaa!!!!!!!!!!!!!!!!!!!!!!!")
         snake = new Snake();
         manzana = new Comida();
         canvas = new MiCanvas(snake, manzana);
